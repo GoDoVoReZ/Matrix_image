@@ -20,7 +20,7 @@ class Matrix:
         self.cols_speed = np.random.randint(100, 250, size=self.SIZE)
         self.prerendered_chars = self.get_prerendered_chars()
 
-        self.image = self.get_image('bender.jpg')
+        self.image = self.get_image('python.jpg')
 
     def get_image(self, path_to_file):
         image = pg.image.load(path_to_file)
